@@ -31,42 +31,23 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>	
-		  <header id="header">
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="services.html">Services</a></li>
-			          <li><a href="portfolio.html">Portfolio</a></li>
-			          <li><a href="price.html">Pricing</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		            	  <li><a href="elements.html">Elements</a></li>
-				          <li class="menu-has-children"><a href="">Level 2 </a>
-				            <ul>
-				              <li><a href="#">Item One</a></li>
-				              <li><a href="#">Item Two</a></li>
-				            </ul>
-				          </li>					                		
-			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
+			<header id="header">
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+					  <div id="logo">
+						<a href="index.html"><h3>Marcell Antonius </h3></a>
+					  </div>
+					  <nav id="nav-menu-container">
+						<ul class="nav-menu">
+						  <li><a href="index.html">Home</a></li>
+						  <li><a href="about.html">About</a></li>
+						  <li><a href="portfolio.html">Portfolio</a></li>		          
+						  <li><a href="contact.html">Contact</a></li>
+						</ul>
+					  </nav><!-- #nav-menu-container -->		    		
+					</div>
+				</div>
+			  </header><!-- #header -->
 	  
 			<!-- start banner Area -->
 			<section class="relative about-banner">	
@@ -95,67 +76,53 @@
 								  style="border:0" allowfullscreen></iframe>
 							  </div>
 						</div>
-						<div class="col-lg-4 d-flex flex-column address-wrap">
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-home"></span>
+						<div class="section-top-border" style="margin-top: -10%;">
+							<h3 class="mb-30" style="text-align: center;">Contact Me Via</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="single-defination  address-wrap">
+										<div class="single-contact-address d-flex flex-row">
+											<div class="icon">
+												<span class="lnr lnr-home"></span>
+											</div>
+											<div class="contact-details">
+												<h5>Bandung, West Java</h5>
+												<p>
+													Jl. Babakan Ciparay Gg. At-Tauhid no.umpi 133 Bandung , West Java, Indonesia
+												</p>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="contact-details">
-									<h5>Bandung, West Java</h5>
-									<p>
-										Jl. Babakan Ciparay Gg. At-Tauhid no.umpi 133 Bandung , West Java, Indonesia
-									</p>
+								<div class="col-md-4">
+									<div class="single-defination address-wrap">
+										<div class="single-contact-address d-flex flex-row">
+											<div class="icon">
+												<span class="lnr lnr-phone-handset"></span>
+											</div>
+											<div class="contact-details">
+												<h5>+62 895401011469</h5>
+												<p>Avaible in many media</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="single-defination address-wrap">
+										<div class="single-contact-address d-flex flex-row">
+											<div class="icon">
+												<span class="lnr lnr-envelope"></span>
+											</div>
+											<div class="contact-details">
+												<h5>marcellantonius18@gmail.com</h5>
+												<p>Send me your query anytime!</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-phone-handset"></span>
-								</div>
-								<div class="contact-details">
-									<h5>+62 895401011469</h5>
-									<p>Avaible in many media</p>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-envelope"></span>
-								</div>
-								<div class="contact-details">
-									<h5>marcellantonius18@gmail.com</h5>
-									<p>Send me your query anytime!</p>
-								</div>
-							</div>														
 						</div>
-						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-
-										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
-									</div>
-									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
-									</div>
-									<div class="col-lg-12">
-										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Send Message</button>											
-									</div>
-								</div>
-							</form>	
-							<form method="post" name="contact_form"
-action="mail.php">
-    Your Name:
-    <input type="text" name="name">
-    Email Address:
-    <input type="text" name="email">
-    Message:
-    <textarea name="message"></textarea>
-    <input type="submit" value="Submit">
-</form>
-						</div>
+						
 					</div>
 				</div>	
 			</section>
@@ -177,19 +144,7 @@ action="mail.php">
                             <div class="single-footer-widget">
                                 <h4>Newsletter</h4>
                                 <p>Contact me at <span style="color:white">+62895401011469</span></p>
-								<div class="" id="mc_embed_signup">
-									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
-									</form> 
-								</div>
+								
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
